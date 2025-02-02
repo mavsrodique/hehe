@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -20,6 +21,7 @@ h1 {
     margin-bottom: 1rem;
     color: black;
     font-family: "JetBrains Mono", sans-serif;
+    background-color: #FFFFFF;
     padding: 1rem 2rem;
     border-radius: 1rem;
 }
@@ -28,14 +30,14 @@ h1 {
     width: 20rem;
     height: 25rem;
     border-radius: 2rem;
-    background-image:url("../PICS&SHII/cat-flowers.gif");
+    background-image: url("../PICS&SHII/cat-flowers.gif");
     background-position: center;
     background-size: cover;
 }
 
 .btns {
     position: relative;
-    width: 10px;
+    width: 20rem;
     display: flex;
     justify-content: space-between;
 
@@ -56,7 +58,7 @@ button {
 }
 
 body {
-    background-color: rgba(216, 213, 8, 0.781);
+    background-color: rgb(239, 255, 20);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -70,7 +72,7 @@ body {
 }
 
 #yessir:hover {
-    background-color: rgb(105, 128, 255);
+    background-color: rgb(105, 133, 255);
 }
 
 p{
@@ -82,5 +84,5 @@ p{
 
 span{
     font-family: "Bodoni MT Black",sans-serif;
-    color:rgb(0, 4, 255);
+    color:rgb(50, 53, 197);
 }
