@@ -84,3 +84,14 @@ span{
     font-family: "Bodoni MT Black",sans-serif;
     color:rgb(0, 4, 255);
 }
+
+@media (max-width: 768px) {
+    .flex-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .flex-item {
+        width: 100%;
+        min-width: unset;
+    }
