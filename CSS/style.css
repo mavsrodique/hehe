@@ -28,7 +28,7 @@ h1 {
     width: 20rem;
     height: 25rem;
     border-radius: 2rem;
-    background-image: url("./PICS&SHII/cat-flowers.gif");
+    background-image:url("../PICS&SHII/cat-flowers.gif");
     background-position: center;
     background-size: cover;
 }
